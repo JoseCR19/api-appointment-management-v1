@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "AppointmentEvent",
+  "namespace": "pe.nttdata.apps.appointment.avro",
+  "fields": [
+    { "name": "appointmentId", "type": "string" },
+    { "name": "eventType", "type": "string" },
+    { "name": "status", "type": "string" },
+    { "name": "occurredAt", "type": "string" }
+  ]
+}
